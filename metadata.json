@@ -1,0 +1,6 @@
+{
+  "name": "Burger Haven - Premium Burger Restaurant",
+  "description": "Modern, fully responsive, full-screen hero section for Burger Haven featuring high-definition video background, responsive navigation, and interactive thumbnail strip.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
