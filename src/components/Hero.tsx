@@ -2,9 +2,9 @@ import { useEffect, useRef, useState } from 'react';
 import { ThumbnailStrip, BURGER_ITEMS, BurgerThumbnail } from './ThumbnailStrip';
 
 export const VIDEO_URL =
-  'https://res.cloudinary.com/dyg5fwjnx/video/upload/v1792132282/Burger_layers_floating_in_dark_20261016113021_y7xqxd.mp4';
+  'https://res.cloudinary.com/dyg5fwjnx/video/upload/v1792218689/Burger_layers_assembling_and_dis__20261017113120_qdg4rk.mp4';
 export const POSTER_URL =
-  'https://res.cloudinary.com/dyg5fwjnx/video/upload/v1792132282/Burger_layers_floating_in_dark_20261016113021_y7xqxd.jpg';
+  'https://res.cloudinary.com/dyg5fwjnx/video/upload/v1792218689/Burger_layers_assembling_and_dis__20261017113120_qdg4rk.jpg';
 
 interface HeroProps {
   onOrderNow: (burger: BurgerThumbnail) => void;
@@ -184,8 +184,8 @@ export function Hero({ onOrderNow, onViewMenu }: HeroProps) {
         - Subtle text-shadow for readability without any video overlay
         ========================================================================
       */}
-      <div className="relative z-20 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex-1 flex flex-col justify-center pt-8 pb-12 lg:py-0 order-2 lg:order-none pointer-events-none">
-        <div className="w-full lg:w-[48%] xl:w-[45%] max-w-xl pointer-events-auto">
+      <div className="relative z-20 w-full max-w-[1560px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-16 flex-1 flex flex-col justify-center pt-8 pb-12 lg:py-0 order-2 lg:order-none pointer-events-none">
+        <div className="w-full lg:w-[55%] xl:w-[50%] max-w-2xl lg:max-w-3xl pointer-events-auto">
           {/* 1. Eyebrow */}
           <div
             className={`flex items-center gap-3 mb-3.5 transition-all duration-700 ease-out ${
@@ -205,7 +205,7 @@ export function Hero({ onOrderNow, onViewMenu }: HeroProps) {
 
           {/* 2. Main Heading */}
           <h1
-            className={`font-display text-[clamp(2.75rem,5.6vw,5rem)] leading-[0.92] tracking-wider font-extrabold uppercase text-white mb-4 transition-all duration-700 delay-100 ease-out [text-shadow:0_2px_14px_rgba(11,18,32,0.85)]`}
+            className={`font-display text-[clamp(2.75rem,5.8vw,5.5rem)] leading-[0.92] tracking-wider font-extrabold uppercase text-white mb-4 transition-all duration-700 delay-100 ease-out [text-shadow:0_2px_14px_rgba(11,18,32,0.85)]`}
             style={{
               textWrap: 'balance',
             }}
@@ -232,7 +232,7 @@ export function Hero({ onOrderNow, onViewMenu }: HeroProps) {
 
           {/* 3. Description */}
           <p
-            className={`text-sm sm:text-base text-[#B8C0CC] leading-relaxed max-w-[480px] mb-7 sm:mb-8 font-body transition-all duration-700 delay-200 ease-out [text-shadow:0_1px_8px_rgba(11,18,32,0.8)] ${
+            className={`text-sm sm:text-base text-[#B8C0CC] leading-relaxed max-w-[560px] mb-7 sm:mb-8 font-body transition-all duration-700 delay-200 ease-out [text-shadow:0_1px_8px_rgba(11,18,32,0.8)] ${
               isLoaded
                 ? 'opacity-100 translate-x-0'
                 : 'opacity-0 -translate-x-10'
